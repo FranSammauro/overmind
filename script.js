@@ -125,3 +125,34 @@ document.addEventListener("DOMContentLoaded", () => {
   // typingEffect();
 })
 
+// Formulario:
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.getElementById("contactForm");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault(); // Evita que se recargue la página
+
+    const name = document.getElementById("name").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const phone = document.getElementById("phone").value.trim();
+    const project = document.getElementById("project").value;
+    const message = document.getElementById("message").value.trim();
+
+    const subject = `Nuevo contacto desde Overmind - ${name}`;
+    const body = `
+Nombre: ${name}%0A
+Email: ${email}%0A
+Teléfono: ${phone}%0A
+Plan elegido: ${project}%0A
+Mensaje: %0A${message}
+    `.trim();
+
+    // Reemplazá el espacio con %20 y saltos de línea con %0A
+    const mailtoLink = `mailto:contacto.overmind@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`;
+
+    window.location.href = mailtoLink;
+  });
+});
+
