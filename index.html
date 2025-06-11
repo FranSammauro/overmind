@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Overmind | Desarrollo Web Freelance</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="cursor"></div>
+  
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <span>OVER</span><span class="highlight">MIND</span>
+    </div>
+    <div class="nav-links">
+      <ul>
+        <li><a href="#hero">Inicio</a></li>
+        <li><a href="#services">Servicios</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#pricing">Precios</a></li>
+        <li><a href="#about">Sobre Mí</a></li>
+        <li><a href="#contact" class="cta-button">Contacto</a></li>
+      </ul>
+    </div>
+    <div class="hamburger">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <div class="logo-animated">
+        <span>OVER</span><span class="highlight glow">MIND</span>
+      </div>
+      <h1 class="tagline">Webs con estilo. A medida. <span class="highlight">Sin gastar una fortuna.</span></h1>
+      <p class="subtagline">Para peluquerías, locales de ropa y cualquier negocio que quiera destacarse.</p>
+      
+      <div class="animated-text-container">
+        <div class="animated-text">
+          <span>funcional.</span>
+          <span>rápida.</span>
+          <span>estética.</span>
+          <span>responsive.</span>
+          <span>optimizada.</span>
+        </div>
+      </div>
+      
+	<a href="#contact" class="cta-button glow"> Quiero mi web</a>
+    </div>
+    <div class="hero-overlay"></div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container reveal">
+      <h2 class="section-title">¿Qué hace Overmind por tu negocio?</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+          <h3>Diseño personalizado</h3>
+          <p>Adaptado específicamente a tu rubro y necesidades</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+          <h3>Web responsive</h3>
+          <p>Se ve perfecta en cualquier dispositivo, desde celulares hasta computadoras</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-tachometer-alt"></i></div>
+          <h3>Carga rápida</h3>
+          <p>Optimizada para Google y para una mejor experiencia de usuario</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fab fa-whatsapp"></i></div>
+          <h3>Contacto directo</h3>
+          <p>Integración con WhatsApp y redes sociales para conectar con tus clientes</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-plus-circle"></i></div>
+          <h3>Y más...</h3>
+          <p>¿Necesitas algo específico? También lo puedo hacer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <div class="container reveal">
+      <h2 class="section-title">🌐 Ejemplos de webs que puedo hacer</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <div class="portfolio-content">
+            <div class="portfolio-front">
+              <img src="assets/peluqueria.png" alt="Ejemplo de web para peluquería">
+              <h3>Peluquería ✂️</h3>
+            </div>
+            <div class="portfolio-back">
+              <h3>Peluquería</h3>
+              <p>Diseño elegante con sistema de reservas online y galería de estilos.</p>
+              <a href="https://fransammauro.github.io/eleganceHairStudio/" class="portfolio-cta">Ver web</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-content">
+            <div class="portfolio-front">
+              <img src="assets/tiendaDeRopa.png" alt="Ejemplo de web para tienda de ropa">
+              <h3>Tienda de Ropa 👕</h3>
+            </div>
+            <div class="portfolio-back">
+              <h3>Tienda de Ropa</h3>
+              <p>Catálogo visual con filtros y contacto directo para consultas.</p>
+              <a href="https://fransammauro.github.io/urbanStyle/" class="portfolio-cta">Ver web</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-content">
+            <div class="portfolio-front">
+              <img src="assets/pasteleria.png" alt="Ejemplo de web para pastelería">
+              <h3>Pastelería 🎂</h3>
+            </div>
+            <div class="portfolio-back">
+              <h3>Pastelería</h3>
+              <p>Diseño colorido con catálogo de productos y sistema de pedidos.</p>
+              <a href="https://fransammauro.github.io/dulceArte/" class="portfolio-cta">Ver web</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-content">
+            <div class="portfolio-front">
+              <img src="assets/cerrajeria.png" alt="Ejemplo de web para cerrajería">
+              <h3>Cerrajería 🔑</h3>
+            </div>
+            <div class="portfolio-back">
+              <h3>Cerrajería</h3>
+              <p>Web informativa con servicios, zonas de cobertura y contacto de emergencia.</p>
+              <a href="https://fransammauro.github.io/cerrajeriaSegura/" class="portfolio-cta">Ver web</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="pricing">
+    <div class="container reveal">
+      <h2 class="section-title">Planes accesibles. Sin vueltas.</h2>
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <h3>Plan Simple</h3>
+            <p class="price">Desde $10.000</p>
+          </div>
+          <div class="pricing-features">
+            <ul>
+              <li>1 página completa</li>
+              <li>Información básica</li>
+              <li>Formulario de contacto</li>
+              <li>Diseño responsive</li>
+              <li>Entrega en 3 días</li>
+            </ul>
+          </div>
+          <a href="#contact" class="pricing-cta">Solicitar</a>
+        </div>
+        <div class="pricing-card featured">
+          <div class="pricing-badge">Popular</div>
+          <div class="pricing-header">
+            <h3>Plan Intermedio</h3>
+            <p class="price">Desde $20.000</p>
+          </div>
+          <div class="pricing-features">
+            <ul>
+              <li>2-3 secciones</li>
+              <li>Galería de imágenes</li>
+              <li>Formulario de contacto</li>
+              <li>Integración con WhatsApp</li>
+              <li>Diseño responsive</li>
+              <li>Entrega en 5 días</li>
+            </ul>
+          </div>
+          <a href="#contact" class="pricing-cta">Solicitar</a>
+        </div>
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <h3>Plan Completo</h3>
+            <p class="price">Desde $30.000</p>
+          </div>
+          <div class="pricing-features">
+            <ul>
+              <li>Sitio multipágina</li>
+              <li>Catálogo de productos</li>
+              <li>Formulario de contacto</li>
+              <li>Integración con WhatsApp</li>
+              <li>Redes sociales</li>
+              <li>Diseño responsive premium</li>
+              <li>Entrega en 7 días</li>
+            </ul>
+          </div>
+          <a href="#contact" class="pricing-cta">Solicitar</a>
+        </div>
+      </div>
+      <div class="pricing-note">
+        <p>✅ Sin mensualidades ocultas</p>
+        <p>✅ Entrega en 3 a 7 días según el plan</p>
+        <p>✅ Incluye dominio y hosting por 1 año</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container reveal">
+      <h2 class="section-title">🧠 ¿Quién está detrás de Overmind?</h2>
+      <div class="about-content">
+        <div class="about-image">
+          <img src="https://placehold.co/400x400/252525/FFFFFF?text=Fran" alt="Fran - Overmind">
+        </div>
+        <div class="about-text">
+          <p>Soy Fran, tengo 15 años, estudio programación, y ya estoy ayudando a negocios reales a tener presencia online sin gastar de más. Amo el código, y creo que toda web debería ser rápida, clara y con estilo.</p>
+          
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>2022</h4>
+                <p>Comencé a estudiar programación</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>2023</h4>
+                <p>Creé mis primeros proyectos web</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>2024</h4>
+                <p>Fundé Overmind para ayudar a negocios locales</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="skills">
+            <div class="skill-item"><i class="fab fa-html5"></i> HTML</div>
+            <div class="skill-item"><i class="fab fa-css3-alt"></i> CSS</div>
+            <div class="skill-item"><i class="fab fa-js"></i> JavaScript</div>
+            <div class="skill-item"><i class="fab fa-github"></i> GitHub</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container reveal">
+      <h2 class="section-title">📱 Contacto</h2>
+      <p class="contact-tagline"> ¿Querés una web? Hablame y te paso presupuesto hoy mismo.</p>
+      
+      <div class="contact-grid">
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Nombre</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Teléfono (opcional)</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+              <label for="project">¿Qué tipo de web necesitas?</label>
+              <select id="project" name="project">
+                <option value="simple">Plan Simple</option>
+                <option value="intermedio">Plan Intermedio</option>
+                <option value="completo">Plan Completo</option>
+                <option value="otro">Otro / No estoy seguro</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Mensaje</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Enviar mensaje</button>
+          </form>
+        </div>
+        
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fab fa-whatsapp"></i>
+            <h3>WhatsApp</h3>
+            <p><a href="https://wa.me/5491125068477" target="_blank">Mensaje directo</a></p>
+          </div>
+          <div class="contact-item">
+            <i class="far fa-envelope"></i>
+            <h3>Email</h3>
+            <p><a href="mailto:contacto.overmind@gmail.com">contacto.overmind@gmail.com</a></p>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-instagram"></i>
+            <h3>Instagram</h3>
+            <p><a href="https://instagram.com/overmind.official_" target="_blank">@overmind.official_</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/+5491125068477" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <span>OVER</span><span class="highlight">MIND</span>
+        </div>
+        <div class="footer-links">
+          <a href="#hero">Inicio</a>
+          <a href="#services">Servicios</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#pricing">Precios</a>
+          <a href="#about">Sobre Mí</a>
+          <a href="#contact">Contacto</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/overmind.official_/"><i class="fab fa-instagram"></i></a>
+          <a href="https://github.com/FranSammauro"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/francisco-sammauro-b1634536b/"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Overmind. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
